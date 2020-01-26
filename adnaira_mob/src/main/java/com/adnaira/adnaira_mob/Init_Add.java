@@ -99,7 +99,7 @@ public class Init_Add {
 
         mImageView = mDialog.findViewById(R.id.imageView2);
         Picasso.get()
-                .load("https://ads.adnaira.ng/assets/ads/ads-by-adnaira.png")
+                .load("https://adnaira.ng/images/logo.png")
                 .fit()
                 .centerCrop()
                 .into(mImageView);
